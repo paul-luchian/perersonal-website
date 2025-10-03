@@ -5,11 +5,16 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-primary: #4A3F35; // A deep brown
+  --color-secondary: #556B2F; // A dark olive green
+  --color-background-light: #F5F5F5; // A soft white
+  --color-text-light: #36454F; // A dark charcoal
+  --color-text-dark: #EAEAEA;
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
 }
 
 @media (prefers-color-scheme: dark) {
