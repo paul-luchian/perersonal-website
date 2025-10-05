@@ -1,4 +1,3 @@
-import styles from './page.module.scss';
 import '../globals.scss'
 
 function Page() {
@@ -12,7 +11,7 @@ function Page() {
                     Building Something New
                 </h1>
                 <p className="text-lg text-gray-700 mb-8">
-                    I'm currently coding something special. The project is underway and will be worth the wait!
+                    I&apos;m currently coding something special. The project is underway and will be worth the wait!
                 </p>
                 <div className="bg-secondary/10 p-6 rounded-lg mb-8">
                     <h2 className="text-2xl font-semibold text-secondary mb-2">Launching Soon!</h2>
